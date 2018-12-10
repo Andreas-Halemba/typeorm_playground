@@ -1,0 +1,20 @@
+{
+   "name": "hd-booking",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "ts-node": "7.0.1",
+      "@types/node": "^10.12.12",
+      "typescript": "3.2.2"
+   },
+   "dependencies": {
+      "typeorm": "0.2.9",
+      "reflect-metadata": "^0.1.12",
+      "mysql": "^2.16.0",
+      "express": "^4.16.4",
+      "body-parser": "^1.18.3"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
+}
